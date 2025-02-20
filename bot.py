@@ -16,8 +16,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 TOKEN = ""
-TARGET_GROUP_ID = "-1002492201701"
-YOUR_USER_ID = "5381821862"
+TARGET_GROUP_ID = ""
+YOUR_USER_ID = ""
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = update.message.from_user
